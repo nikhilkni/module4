@@ -1,4 +1,4 @@
-(function (window) {
+function (window) {
 Good Bye Jim
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 for (var i in names) {
@@ -10,4 +10,4 @@ for (var i in names) {
      window.helloSpeaker.speak(names[i]);
   }
 }
-})(window);
+}(window);
